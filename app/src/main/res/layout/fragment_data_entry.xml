@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="17dp">
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/ageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age" />
+
+            <EditText
+                android:id="@+id/gradeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Grade" />
+
+            <EditText
+                android:id="@+id/majorEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Major (optional)" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Submit" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
